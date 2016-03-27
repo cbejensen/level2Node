@@ -37,7 +37,8 @@ req.query = {
 // 204 === No content
     // might see this as a response to a delete request
 // The 400's are generally used to say the client sent something wrong
+    // 401 === Not signed in / not authorized
+    // 403 === Forbidden - this simply cannot be accessed
     // 404 === Not found
-    // 401 / 402 === Not signed in / not authorized
 // 500 === internal server error
 
